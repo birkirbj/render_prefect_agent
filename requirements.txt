@@ -1,1 +1,6 @@
 prefect >= 2.6.4   
+requests_toolbelt
+pymongo
+gql
+datetime
+
