@@ -3,5 +3,4 @@ requests_toolbelt
 pymongo
 gql
 datetime
-logging
 
