@@ -1,4 +1,4 @@
-prefect >= 2.6.4   
+prefect
 requests_toolbelt
 pymongo
 gql
