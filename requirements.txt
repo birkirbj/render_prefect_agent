@@ -1,4 +1,4 @@
-prefect
+prefect == 2.20.1
 requests_toolbelt
 pymongo
 gql
