@@ -4,6 +4,7 @@ gql
 datetime
 prefect
 prefect-gcp
+psycopg
 psycopg[binary]
 
 
