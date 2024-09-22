@@ -1,6 +1,9 @@
-prefect == 2.20.1
 requests_toolbelt
 pymongo
 gql
 datetime
+prefect
+prefect-gcp
+psycopg[binary]
+
 
