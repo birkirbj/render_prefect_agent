@@ -1,0 +1,8 @@
+requests_toolbelt
+pymongo
+gql
+datetime
+prefect
+prefect-gcp
+psycopg
+psycopg[binary]
