@@ -1,0 +1,18 @@
+# Exported from Render on 2024-09-25T08:36:06Z
+services:
+- type: worker
+  name: adventures_is_worker
+  runtime: python
+  repo: https://github.com/birkirbj/render_prefect_agent
+  plan: standard
+  envVars:
+  - key: PYTHON_VERSION
+    sync: false
+  - key: PREFECT_API_URL
+    sync: false
+  - key: PREFECT_API_KEY
+    sync: false
+  region: frankfurt
+  buildCommand: pip install -r requirements2.txt
+  startCommand: 'prefect worker start --pool "wp_adventures_is_worker" '
+version: "1"
